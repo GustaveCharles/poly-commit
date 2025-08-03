@@ -108,7 +108,7 @@ where
         two_to_one_hash_param: TwoToOneParam<C>,
         col_hash_params: H::Parameters,
     ) -> Self {
-        let sec_param = 16;
+        let sec_param = 1;
         let a = (178, 1000);
         let b = (61, 1000);
         let r = (1521, 1000);
